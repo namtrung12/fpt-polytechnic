@@ -1,0 +1,139 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+.container .header {
+    background-image: url("Screenshot 2025-02-08 085017.png");
+    height: 231px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container .header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 85%;
+}
+
+/* Menu */
+.menu {
+    min-height: 40px;
+    background-color: #5DADE2; /* Màu mới */
+}
+
+.menu ul {
+    list-style: none;
+    background-color: #5DADE2;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+    padding: 0 12px;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    box-shadow: 0 0 5px gray;
+    background-color: #F2F3F4; /* Màu mới */
+    border-radius: 3px;
+    text-align: left;
+}
+
+.menu ul ul li {
+    display: block;
+}
+
+.menu ul ul a {
+    display: block;
+    color: #1A5276; /* Màu mới */
+    text-decoration: none;
+    font-size: large;
+    font-variant: small-caps;
+    padding: 0 12px;
+    line-height: 30px;
+}
+
+.menu ul ul a:hover {
+    color: white;
+    background-color: #3498DB; /* Màu mới */
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li:hover a {
+    color: #E74C3C; /* Màu mới */
+}
+
+/* Marquee */
+marquee {
+    line-height: 25px;
+    min-height: 25px;
+    z-index: -1;
+}
+
+/* Content */
+.content {
+    width: 100%;
+    min-height: 800px;
+    margin-bottom: 10px;
+}
+
+.content article {
+    width: 75%;
+    float: left;
+    background-color: #AED6F1; /* Màu mới */
+    min-height: 800px;
+}
+
+.content aside {
+    width: 25%;
+    float: right;
+    background-color: #F9E79F; /* Màu mới */
+    min-height: 800px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    min-height: 50px;
+    background-color: #58D68D; /* Màu mới */
+    text-align: center;
+    line-height: 50px;
+    border-top: 1px dotted #5DADE2;
+}
+iframe{
+    width: 100%;
+font-size: 20px;
+min-height: 500px;
+}
+
+
